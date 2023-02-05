@@ -1,0 +1,2 @@
+1.Download the dataset named "cat_and_dog_dataset".Use the folder named "cat_and_dog_dataset" as the direct subfolder of the "train" folder.
+2.Download the pretrained model "MobileNetV2.pth" that is pretrained from Imagenet-1K .Then, put it as the direct subfolder of the "train" folder.

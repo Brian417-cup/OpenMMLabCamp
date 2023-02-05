@@ -1,0 +1,1 @@
+The result of tensorboard will be saved here. If you want to run the results in tensorboard, you should make sure that you should install the tensorboard2.10 , then please switch to the last directory, nd run "tensorboard --logdir=log".

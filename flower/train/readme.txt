@@ -1,0 +1,2 @@
+1.Download the dataset named "flower_dataset_imagenet".Use the folder named "flower_dataset_imagenet" as the direct subfolder of the "train" folder.
+2.Download the pretrained model "resnet50.pth" that is pretrained from Imagenet-1K .Then, put it as the direct subfolder of the "train" folder.
