@@ -11,10 +11,10 @@ checkpoint_base = 'checkpoint'
 config_base = 'config'
 img_path = os.path.join(img_file_base, 'test1.jpeg')
 checkpoit_path = os.path.join(checkpoint_base, 'final_epoch_551.pth')
-config_path = os.path.join(config_base, 'resnet50_config.py')
+config_path = os.path.join(config_base, 'main_config.py')
 
 tensorboard_out_path = 'logs'
-
+img_combine_out_path='predict_img_combine'
 # 模型初始化
 model = init_model(config=config_path,
                    checkpoint=checkpoit_path,
@@ -52,6 +52,7 @@ def predict_with_tensorboard():
 
         # 用tensorboard可视化
         writer.add_images(f'{prediction_tag}{i}', img_tensor=np.array(img), dataformats='HWC')
+        cv2.imwrite(os.path.join(img_combine_out_path, os.path.basename(item)),cv2.cvtColor(img, cv2.COLOR_RGB2BGR))
         # 可视化
         # 原生openmmlab的方法
         # show_result_pyplot(model, item, result)
