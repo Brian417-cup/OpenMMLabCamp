@@ -9,7 +9,7 @@
 ![flower_classification](https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/flower/visualize_and_prediction/accuracy.svg "flower_classification")  
 
 ·部分预测可视化  
- ![flower_classification](https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/flower/visualize_and_prediction/predict_img_combine/combine_result.jpg "flower_classification")  
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/flower/visualize_and_prediction/predict_img_combine/combine_result.jpg" alt="flower_classification"/></div>  
 
 ##  进阶作业：猫狗识别(Kaggle的数据集重新整理)
 ·源数据(Kaggle官方的)  https://www.kaggle.com/datasets/tongpython/cat-and-dog  
@@ -20,6 +20,6 @@
     链接: https://pan.baidu.com/s/1-xndH8dKS4m7-1ojMVZYYg 提取码: j3fp  
     
 ·准确率可视化评估  
-![dog_cant_classification](https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/cat_and_dog/visualize_and_prediction/accuracy.svg "dog_cant_classification")  
+![dog_cat_classification](https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/cat_and_dog/visualize_and_prediction/accuracy.svg "dog_cat_classification")  
 ·部分预测可视化  
-![dog_cant_classification](https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/cat_and_dog/visualize_and_prediction/predict_img_combine/combine_result.jpg "dog_cant_classification")
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/cat_and_dog/visualize_and_prediction/predict_img_combine/combine_result.jpg" alt="dog_cat_classification"/></div>  
