@@ -6,8 +6,9 @@
     链接: https://pan.baidu.com/s/19CiL4GUbW_Ts1s47yuqRLg 提取码: bpem 
     
 ·准确率可视化评估  
+![flower_classification](https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/flower/visualize_and_prediction/accuracy.svg "flower_classification")  
 
-##  进阶作业：猫狗识别(用Kaggle的数据集重新整理获得)
+##  进阶作业：猫狗识别(Kaggle的数据集重新整理)
 ·源数据(Kaggle官方的)  https://www.kaggle.com/datasets/tongpython/cat-and-dog  
 
 ·预训练模型  MobileNetV2  
