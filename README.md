@@ -17,7 +17,8 @@
 
 <li> 训练日志、结果模型和整理好的数据集下载地址  
     链接: https://pan.baidu.com/s/1OTfnBPHLnLbWooxJJe3xLA 提取码: 4eik 
-    
+<li> 模型配置文件见    balloon/visualize_and_predict/config/main_config.py  
+
 <li>可视化评估</li>  
  
 <div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/detection/balloon/visualize_and_predict/res/bbox_mAP.svg" alt="balloon_detection"/></div>   
@@ -38,6 +39,8 @@
 
 <li>训练日志、结果模型下载地址  
     链接: https://pan.baidu.com/s/1YziQ3lc0GqarRwHxMUWnQQ 提取码: tdni 
+    
+<li> 模型配置文件见    VOC2007_partial/visualize_and_predict/config/main_config.py  
 
 <li>VOC2007数据集下载地址  http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html
 
