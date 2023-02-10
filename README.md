@@ -34,9 +34,11 @@
 
 <li>预训练模型  YOLOVX  
 
-<li>训练日志、结果模型和整理好的数据集下载地址  
-    链接: https://pan.baidu.com/s/1-xndH8dKS4m7-1ojMVZYYg 提取码: j3fp  
-    
+<li>训练日志、结果模型下载地址  
+    链接: https://pan.baidu.com/s/1YziQ3lc0GqarRwHxMUWnQQ 提取码: tdni 
+
+<li>VOC2007数据集下载地址  http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html
+
 <li>准确率可视化评估  
 <div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/detection/VOC2007_partial/visualize_and_predict/res/mAP.svg" alt="VOC2007_detection"/></div>   
 <div align=center><h3> mAP可视化</h3></div><br> 
