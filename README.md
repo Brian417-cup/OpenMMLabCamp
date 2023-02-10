@@ -28,6 +28,8 @@
 
 <li>部分预测可视化  
 <div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/detection/balloon/visualize_and_predict/output_gray/combine_result.jpg" alt="balloon_detection"/></div>  
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/detection/balloon/visualize_and_predict/res/balloon_gray.gif" alt="balloon_detection"/></div>  
+
 
 ##  进阶作业：VOC2007数据集目标检测
 <li>说明  本次使用的数据集为VOC2007数据集的子类，仅包含如下类别的目标检测：鸟、猫、奶牛、狗、马、人、山羊  
