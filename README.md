@@ -13,29 +13,79 @@
   
 
 ## 基础作业：针对VOC2012数据集的图像分割
-<li>  说明：由于本次服务器资源的卡时有限，只选择了公交车、猫、人这三个子集作为训练分割的考察对象
-<li> 预训练模型 ResNet50 +  DeepLabV3Plus
+<li>  说明：由于本次服务器资源的卡时有限，只选择了公交车、猫、人这三个子集作为训练分割的考察对象  
 
-<li> 训练日志、结果模型和整理好的数据集下载地址  
-    链接: https://pan.baidu.com/s/1CHDcENFlmNuj3iTovWdWJw 提取码: si39 
+###  预训练模型 
+    ResNet50 +  DeepLabV3Plus
+
+### 训练日志、结果模型和整理好的数据集下载地址  
+    链接: https://pan.baidu.com/s/1CHDcENFlmNuj3iTovWdWJw  
+    提取码: si39 
     
-<li>结果可视化和</li>  
+###  结果可视化和部分指标分析  
+<li>猫—— IoU ：84.25 ,  Acc ：87.55
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/voc_2012_seg/visualize_and_predict/combine_out/test1_combine.jpg" alt="voc2012_segmentation"/></div>  
 
-<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/flower/visualize_and_prediction/accuracy.svg" alt="flower_classification"/></div>   
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/voc_2012_seg/visualize_and_predict/combine_out/test2_combine.jpg" alt="voc2012_segmentation"/></div>  
 
-<li>部分预测可视化  
-<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/flower/visualize_and_prediction/predict_img_combine/combine_result.jpg" alt="flower_classification"/></div>  
+<li>人—— IoU ：66.29 ,  Acc ：72.83
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/voc_2012_seg/visualize_and_predict/combine_out/test3_combine.jpg" alt="voc2012_segmentation"/></div>  
 
-##  进阶作业：猫狗识别(Kaggle的数据集重新整理)
-<li>源数据(Kaggle官方的)  https://www.kaggle.com/datasets/tongpython/cat-and-dog  
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/voc_2012_seg/visualize_and_predict/combine_out/test4_combine.jpg" alt="voc2012_segmentation"/></div>  
 
-<li>预训练模型  MobileNetV2  
+<li>巴士—— IoU ：0.65 ,  Acc ：75.46
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/voc_2012_seg/visualize_and_predict/combine_out/test5_combine.jpg" alt="voc2012_segmentation"/></div>  
 
-<li>训练日志、结果模型和整理好的数据集下载地址  
-    链接: https://pan.baidu.com/s/1-xndH8dKS4m7-1ojMVZYYg 提取码: j3fp  
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/voc_2012_seg/visualize_and_predict/combine_out/test6_combine.jpg"/></div>  
+
+###  推理时间
+  在Intel i5 CPU上推理,需4.28s/张
+  
+##  进阶作业：模特衣物分割(Kaggle的数据集重新整理)
+
+<li>  说明：由于本次服务器资源的卡时有限，最终得到的模型并没有在所有给出的58个类别都有很好的分割效果    
+
+###  预训练模型  ResNet50 + DeepLabV3Plus  
+
+###  训练日志、结果模型和整理好的数据集下载地址  
+    链接: https://pan.baidu.com/s/1BH6_1dRMH7oQpD7-iSGwJg 提取码: miqz 
     
-<li>准确率可视化评估  
-<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/cat_and_dog/visualize_and_prediction/accuracy.svg" alt="dog_cat_classification"/></div>  
+###  Acc可视化展示  
+<li>bag
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/res/______bag______.svg" alt="clothe_segmentation"/></div>  
 
-<li>部分预测可视化  
-<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/classification/cat_and_dog/visualize_and_prediction/predict_img_combine/combine_result.jpg" alt="dog_cat_classification"/></div>  
+<li>belt
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/res/______belt_____.svg" alt="clothe_segmentation"/></div>  
+
+<li>coat
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/res/______coat_____.svg" alt="clothe_segmentation"/></div>  
+
+<li>hair
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/res/______hair_____.svg" alt="clothe_segmentation"/></div>  
+
+<li>hat
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/res/______hat______.svg" alt="clothe_segmentation"/></div>  
+
+<li>dress
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/res/_____dress_____.svg" alt="clothe_segmentation"/></div>  
+
+
+<li>dressshoes align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/res/_____shoes_____.svg" alt="clothe_segmentation"/></div>  
+
+
+###  推理时间
+  在Intel i5 CPU上推理,需3.89s/张
+
+###  部分预测可视化  
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/combine_out/test1_combine.jpg" alt="clothe_segmentation"/></div>  
+
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/combine_out/test2_combine.jpg" alt="clothe_segmentation"/></div>  
+
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/combine_out/test3_combine.jpg" alt="clothe_segmentation"/></div>  
+
+
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/combine_out/test4_combine.jpg" alt="clothe_segmentation"/></div>  
+
+
+<div align=center><img src="https://github.com/Brian417-cup/OpenMMLabCamp/blob/segmentation/clothe_seg/visualize_and_predict/combine_out/test5_combine.jpg" alt="clothe_segmentation"/></div>  
+
